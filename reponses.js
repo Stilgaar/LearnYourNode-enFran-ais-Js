@@ -47,7 +47,7 @@ const fs = require('fs');
 
 // l'énoncé nous conseille d'utiliser la fonction readfileSync pour lire notre texte en 'buffer'. Traduction de l'énoncé : 
 // "Les objets Buffer sont l’approche retenue par Node pour représenter efficacement des tableaux de données, qu’il s’agisse de texte ASCII, de binaire ou d’autres formats.""
-let cacaouhette = fs.readFileSync('./texte.txt');
+let cacaouhette = fs.readFileSync('./texte.txt'); // evidement, là c'est un exemple, je vous invite à crée un petit fichier et a y écrire un petit texte. 
 console.log(`console log de cacahouette ${cacaouhette}`); // je l'ai console log, ça me donne une jolie liste de chiffres, je suppose que c'est le buffer ? 
 
 // après l'énoncé nous conseille d'utiliser ".tostring();" pour avoir une representation du buffer. J'ai donc supposé que je devais stringer cacahouette
