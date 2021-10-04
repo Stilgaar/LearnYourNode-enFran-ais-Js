@@ -65,4 +65,10 @@ console.log(`console log de chaussure lenght -1 ${chaussure.length -1}`); // la 
 // var n = fs.readFileSync(process.argv[2]).toString().split('\n').length - 1;
 // console.log(n);
 // 
-// D'ailleurs si vous faites les learnyournode verifity votrefichier.js cela ne fonctionnera que si vous remplacer votre texte.txt par le 'process.argv[2]'. En effet Learnyournode va se crée un fichier générique dans lequel il comptera ses propres lignes (le batard)
+// D'ailleurs si vous faites les learnyournode verifity votrefichier.js cela ne fonctionnera que si vous remplacer votre texte.txt par le 'process.argv[2]'. 
+// En effet Learnyournode va se crée un fichier générique dans lequel il comptera ses propres lignes (le batard)
+
+
+// ******************************************************************************************************** //
+
+// *** 4 *** // 
